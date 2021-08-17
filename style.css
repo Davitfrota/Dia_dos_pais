@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@keyframes Parabens {
+    from{font-size: 0px;}
+    to{font-size: 30px;}
+    
+    
+}
+
+@keyframes Foto {
+    from{width: 0px;height: 0px;}
+    to{width: 570px;height: 704px;}
+    
+    
+    
+}
+
+@keyframes Patos{
+    0%{opacity: 0%;}
+    10%{opacity: 100%;}
+    20%{opacity: 100%;transform: scaleX(1);}
+    30%{opacity: 100%;transform: scaleX(-1);}
+    40%{opacity: 100%;transform: scaleX(1);}
+    50%{opacity: 100%;transform: scaleX(-1);}
+    60%{opacity: 100%;transform: scaleX(1);}
+    70%{opacity: 100%;transform: scaleX(-1);}
+    80%{opacity: 100%;transform: scaleX(1);}
+    90%{opacity: 100%;transform: scaleX(-1);}
+    100%{opacity: 100%;transform: scaleX(1);}
+}
+
+body{
+    background-color: salmon;
+    text-align: center;
+    display: flex;
+    
+}
+
+.Foto{
+    background-image: url('/PAPITO.jpeg');
+    background-repeat: no-repeat;
+    width: 570px;
+    height: 704px;
+    margin-top: 10px;
+    background-position: center;
+    border: solid 5px;
+    border-radius: 10px;
+    animation: Foto;
+    animation-duration: 3s;
+    animation-delay: 4s;
+
+   
+      
+}
+
+.feliz{
+    font-size: 0px;
+    padding: 20px;
+    animation: Parabens;
+    animation-duration: 3s;
+    animation-delay: 7s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+    
+}
+
+.duck1{
+    background: url('/Pato.png'); 
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 100%;
+    opacity: 0;
+    animation: Patos;
+    animation-delay: 7s;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    
+}
+.duck2{
+    background: url('/Pato.png'); 
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 100%;
+    opacity: 0;
+    animation: Patos;
+    animation-delay: 7s;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+   
+    
+    
+}
+
